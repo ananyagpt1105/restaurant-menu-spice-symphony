@@ -1,7 +1,7 @@
 # Spice Symphony Restaurant Menu
 
 **Live Demo**  
-https://yourusername.github.io/restaurant-menu-spice-symphony/
+https://ananyagpt1105.github.io/restaurant-menu-spice-symphony/
 
 ## Preview
 ![Project Preview](preview.png)
