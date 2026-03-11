@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: url("https://images.unsplash.com/photo-1552566626-52f8b828add9") no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #d4af37;
+}
+
+header .tagline {
+  font-size: 1.2rem;
+  color: #eee;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.menu-section {
+  margin: 2rem auto;
+  max-width: 900px;
+  padding: 1.5rem;
+  background: rgba(0,0,0,0.7);
+  border-radius: 10px;
+}
+
+.menu-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-text {
+  flex: 1 1 55%;
+}
+
+.menu-text h2 {
+  font-size: 2rem;
+  color: #d4af37;
+  border-bottom: 1px solid #d4af37;
+  padding-bottom: 5px;
+}
+
+.section-tagline {
+  font-style: italic;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.item {
+  font-weight: bold;
+}
+
+.price {
+  color: #ffd700;
+}
+
+.menu-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.menu-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #bbb;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .menu-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
